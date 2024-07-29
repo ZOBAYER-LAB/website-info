@@ -1,0 +1,95 @@
+
+@media screen and (max-width: 600px) {
+    .logo-ra h1{
+        font-size:20px;
+        margin-left: 12px;
+    }
+    .menu-section a{
+       display: flex;
+      font-size: small;
+      text-align: center;
+       
+       display: none;
+    }
+    .one{
+        display: flex;
+       align-items: center;
+       justify-content: space-around;
+       
+    }
+   
+    .menu-icon-area{
+        display: block;
+        font-size: 25px;
+        text-align: center;
+        cursor: pointer;
+       
+    }
+    .one a{
+        display: block;
+    }
+
+   /* main body responsive desigb  */
+   .text-title{
+    font-size: 25px;
+    top:60px;
+    
+   }
+   .back-body{
+    height: 50vh;
+   }
+   .button{
+    position: relative;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #09ff00;
+    transition: all 0.2s ease;
+    margin-top: -22px;
+   }
+
+   /* card design responsive */
+   .card-body{
+    display: flex;
+   flex-direction: column;
+    
+  }
+  .tile-amaing h1{
+    font-size:20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    
+  }
+  ul li{
+    display: block;
+    padding:10px;
+    font-size: 15px;
+  }
+  .portfolio-image{
+    display: flex;
+    flex-direction: column;
+  }
+  .portfloio-site{
+    background-color:#171B22;
+    color: white;
+    font-family: sans-serif;
+    height:280vh;
+    
+  }
+  .resonsive-icon{
+    position: relative;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .slider{
+    
+    width: 95%;
+    margin-left: 10px;
+  }
+  
+  
+}
+
